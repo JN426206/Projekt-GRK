@@ -1,0 +1,5 @@
+Program u¿ywa API OpenGL oraz biblioteki free glut u¿ywanych do tworzenia grafiki trójwymiarowej.
+Program umo¿liwia interakcje z u¿ytkownikiem za pomoc¹ funkcji keyboard. Dziêki niej mamy mo¿liwoœæ poruszania obiektem "shark". Mozliwe ruchu to: ruchy w bok, do przodu oraz do ty³u a tak¿e obrót wokó³ w³asnej osi. Efekt ten uzyskany zosta³ za pomoca zmiany pozycji kamery w zale¿noœci jaki przycisk zosta³ wciœniêty, a efekt poruszaj¹cego siê modelu realizuje przyczepienie rekina do kamery.
+Program wczytuje modele z plików o rozszerzeniu obj.
+W projekcie zastosowane s¹ shadery rozpraszania œwiat³a, 
+Dziêki zmiennej time ustalane s¹ takie macierze translakcji aby obiekty porusza³y siê prawid³owo po wyznaczonej œcie¿ce. Dziêki czemu uzyskujemy animacjê ruchu.
